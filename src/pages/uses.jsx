@@ -43,8 +43,7 @@ export default function Uses() {
                     <ToolsSection title="Workstation">
                         <Tool title="AMD Ryzen 9 5900X, RTX 3070, 64GB DDR4 RAM @ 3.600MT/s">
                             My desktop machine is my pride and joy. Featuring some fancy hardware, NZXT watercooling,
-                            RGB
-                            and storage for days, it’s the perfect machine for my needs.
+                            RGB and storage for days. It’s the perfect machine for my needs.
                         </Tool>
                         <Tool title="14” MacBook Pro, M1 Pro, 16GB RAM (2021)">
                             I was using a Dell XPS prior to this and the
@@ -96,25 +95,17 @@ export default function Uses() {
                         </Tool>
                         <Tool title="Tinkerwell">
                             If you love Laravel Tinker, you’ll love Tinkerwell even more. It’s an amazing tool for
-                            quickly testing code snippets, while having the hot-reload that I miss with Tinker.
+                            quickly running code snippets, while having the hot-reload that I miss with Tinker.
                         </Tool>
                         <Tool title="Spatie Ray">
-                            My favorite debugging tool. Super easy to use, and it’s a great way to quickly debug any
-                            code of any application.
+                            My favorite debugging tool. Super easy to use, and it’s a great way to quickly debug code of
+                            any application.
                         </Tool>
                     </ToolsSection>
                     <ToolsSection title="Tech stack">
-                        <Tool title="Laravel">
-
-                        </Tool>
-                        <Tool title="Livewire">
-                            Foo
-                        </Tool>
-                        <Tool title="Tailwind CSS">
-                            Foo
-                        </Tool>
-                        <Tool title="Alpine.js">
-                            Foo
+                        <Tool title="Laravel, Livewire, Tailwind CSS, Alpine.js and Vue.js">
+                            My favourite PHP framework. Whenever I start a new project, I don’t even need to think about
+                            what framework to use, because I know that Laravel is the best choice for me.
                         </Tool>
                     </ToolsSection>
                     <ToolsSection title="Productivity">

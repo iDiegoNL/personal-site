@@ -24,7 +24,7 @@ const professionalProjects = [
     {
         name: 'Hartje Wonen',
         description:
-            'Hartje Wonen is a real estate agency in the Netherlands. They offer a wide range of services, from buying and selling houses to renting and renovating.',
+            'Hartje Wonen is a real estate CRM dashboard that helps real estate agents to manage their clients and properties.',
         link: {href: 'https://hartjewonen.nl', label: 'hartjewonen.nl', external: true},
         logo: logoHartjewonen,
     },
@@ -68,7 +68,6 @@ const professionalProjects = [
         name: 'Nieuwjaarsduik IJburg website & dashboard',
         description:
             'A website and dashboard for managing the Nieuwjaarsduik IJburg event attendees. Built with Laravel and Semantic UI.',
-        // link: {href: '#', label: 'Link to project'},
         logo: logoBootburg,
     },
 ];
@@ -76,34 +75,44 @@ const professionalProjects = [
 const personalProjects = [
     {
         name: 'TruckersMP',
+        badge: {label: '2022'},
         description:
             'The main website for TruckersMP. This handles everything from users to recruitment, blog posts and more. Built with Laravel.',
         link: {href: 'https://truckersmp.com', label: 'truckersmp.com', external: true},
         logo: logoTruckersmp,
     },
     {
+        name: 'TruckersMP API Client',
+        badge: {label: '2022'},
+        description:
+            'A PHP client for the TruckersMP API, built with Guzzle.',
+        link: {href: 'https://github.com/TruckersMP/API-Client', label: 'github.com', external: true},
+        logo: logoTruckersmp,
+    },
+    {
         name: 'Phoenix CMS',
+        badge: {label: '2021 - 2022'},
         description:
             'A CMS for managing the PhoenixVTC website. Built with Craft CMS, Tailwind CSS and Alpine.js.',
-        link: {href: '#', label: 'Link to article'},
         logo: logoPhoenix,
     },
     {
         name: 'PhoenixBase',
+        badge: {label: '2020 - 2022'},
         description:
             'A dashboard for PhoenixVTC drivers. This handles everything from recruitment to virtual job submissions. Built with Laravel, Livewire, Tailwind CSS and Alpine.js.',
-        link: {href: '#', label: 'github.com'},
         logo: logoPhoenix,
     },
     {
         name: 'Phoenix Tracker',
+        badge: {label: '2021 - 2022'},
         description:
             'An Electron app for tracking deliveries in the game Euro Truck Simulator 2. Built with Electron, Vue.js and Tailwind CSS.',
-        link: {href: '#', label: 'Link to article'},
         logo: logoPhoenix,
     },
     {
         name: 'Viva Trucking DriversHub',
+        badge: {label: '2020'},
         description:
             'A dashboard for Viva Trucking drivers. This handles everything from recruitment to virtual job submissions. Built with Laravel and Bootstrap.',
         link: {href: 'https://vivatrucks.com', label: 'vivatrucks.com', external: true},
@@ -111,30 +120,31 @@ const personalProjects = [
     },
     {
         name: 'Coffee Order',
+        badge: {label: '2020'},
         description:
             'A simple coffee order app built with Laravel and Tailwind CSS. This again was a school project, and the first project where I used Tailwind CSS.',
-        link: {href: '#', label: 'github.com'},
+        link: {href: 'https://github.com/iDiegoNL/coffee-order', label: 'github.com'},
         logo: iconCupTogoDuotone,
     },
     {
         name: 'Bani Supermarkt',
+        badge: {label: '2019'},
         description:
             'Bani Supermarkt is a fictional supermarket for a school project. Built with Laravel and Semantic UI.',
-        link: {href: '#', label: 'github.com'},
         logo: iconCartShoppingDuotone,
     },
     {
         name: 'TripPlanner',
+        badge: {label: '2019'},
         description:
             'TripPlanner is a web application that allows you to plan your trips and share them with your friends.',
-        link: {href: '#', label: 'github.com'},
         logo: iconIslandTropicalDuotone,
     },
     {
         name: 'UpCheck',
+        badge: {label: '2019'},
         description:
             'UpCheck is a simple uptime monitoring tool that allows you to monitor your websites and servers. Built with Laravel and Tabler.',
-        link: {href: '#', label: 'upcheck.co'},
         logo: logoUpcheck,
     },
 ]
@@ -157,7 +167,7 @@ export default function Projects() {
                 <title>Projects - Diego Relyveld</title>
                 <meta
                     name="description"
-                    content="Things I’ve made trying to put my dent in the universe."
+                    content="I've created and contributed to a lot of projects over the years during my career. Here are the ones I'm most proud of."
                 />
             </Head>
             <SimpleLayout
@@ -188,8 +198,9 @@ export default function Projects() {
                                     </Card.Link>
                                 </h2>
                                 :
-                                <div className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
+                                <div className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100 flex items-baseline">
                                     <Card.Title>{project.name}</Card.Title>
+                                    {project.badge ? <Badge className="ml-2">{project.badge.label}</Badge> : null}
                                 </div>
                             }
                             <Card.Description>{project.description}</Card.Description>
@@ -224,17 +235,28 @@ export default function Projects() {
                                     unoptimized
                                 />
                             </div>
-                            <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-                                <Card.Link href={project.link.href} target={project.link.external ? '_blank' : '_self'}>
-                                    {project.name}
+                            {project.link ?
+                                <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
+                                    <Card.Link href={project.link.href}
+                                               target={project.link.external ? '_blank' : '_self'}>
+                                        {project.name}
+                                        {project.badge ? <Badge className="ml-2">{project.badge.label}</Badge> : null}
+                                    </Card.Link>
+                                </h2>
+                                :
+                                <div className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100 flex items-baseline">
+                                    <Card.Title>{project.name}</Card.Title>
                                     {project.badge ? <Badge className="ml-2">{project.badge.label}</Badge> : null}
-                                </Card.Link>
-                            </h2>
+                                </div>
+                            }
                             <Card.Description>{project.description}</Card.Description>
-                            <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
-                                <LinkIcon className="h-6 w-6 flex-none"/>
-                                <span className="ml-2">{project.link.label}</span>
-                            </p>
+                            {project.link ?
+                                <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
+                                    <LinkIcon className="h-6 w-6 flex-none"/>
+                                    <span className="ml-2">{project.link.label}</span>
+                                </p>
+                                : ''
+                            }
                         </Card>
                     ))}
                 </ul>
