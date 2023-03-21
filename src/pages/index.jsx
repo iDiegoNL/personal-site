@@ -79,6 +79,13 @@ function ArrowDownIcon(props) {
 function Resume() {
     let resume = [
         {
+            company: 'Digital Impact',
+            title: 'Back-end Developer',
+            logo: logoDigitalImpact,
+            start: '02/2023',
+            end: 'Present',
+        },
+        {
             company: 'The Dev Squad',
             title: 'Back-end Developer',
             logo: logoTheDevSquad,
