@@ -9,6 +9,7 @@ import {
     LinkedInIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/avatar.jpg'
+import logoDigitalImpact from "@/images/logos/digital-impact.png";
 import logoTheDevSquad from "@/images/logos/the-dev-squad.png";
 import logoThisIsDevelopment from "@/images/logos/this-is-development.png";
 import logoAlbertHeijn from "@/images/logos/albert-heijn.svg";
