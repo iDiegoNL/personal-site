@@ -12,7 +12,6 @@ import portraitImage from '@/images/avatar.jpg'
 import logoTheDevSquad from "@/images/logos/the-dev-squad.png";
 import logoThisIsDevelopment from "@/images/logos/this-is-development.png";
 import logoAlbertHeijn from "@/images/logos/albert-heijn.svg";
-import {Button} from "@/components/Button";
 
 function SocialLink({className, href, children, icon: Icon}) {
     return (
@@ -143,11 +142,6 @@ function Resume() {
                     </li>
                 ))}
             </ol>
-//             <Button href="cv.pdf" target="_blank" variant="secondary" className="group mt-6 w-full">
-//                 Download CV
-//                 <ArrowDownIcon
-//                     className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"/>
-//             </Button>
         </div>
     )
 }
