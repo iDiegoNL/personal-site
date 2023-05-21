@@ -9,6 +9,7 @@ import {
     LinkedInIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/avatar.jpg'
+import logoDigitalImpact from "@/images/logos/digital-impact.png";
 import logoTheDevSquad from "@/images/logos/the-dev-squad.png";
 import logoThisIsDevelopment from "@/images/logos/this-is-development.png";
 
@@ -76,6 +77,13 @@ function ArrowDownIcon(props) {
 
 function Resume() {
     let resume = [
+        {
+            company: 'Digital Impact',
+            title: 'Back-end Developer',
+            logo: logoDigitalImpact,
+            start: '02/2023',
+            end: 'Present',
+        },
         {
             company: 'The Dev Squad',
             title: 'Back-end Developer',
