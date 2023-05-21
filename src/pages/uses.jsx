@@ -45,10 +45,9 @@ export default function Uses() {
                             My desktop machine is my pride and joy. Featuring some fancy hardware, NZXT watercooling,
                             RGB and storage for days. It’s the perfect machine for my needs.
                         </Tool>
-                        <Tool title="14” MacBook Pro, M1 Pro, 16GB RAM (2021)">
-                            I was using a Dell XPS prior to this and the
-                            difference is night and day. I’ve never heard the fans turn on a
-                            single time, even when having multiple big projects open.
+                        <Tool title="13,6” MacBook Pro, M2, 16GB RAM (2022)">
+                            I was using a Dell XPS prior to switching to Apple, and I’m very happy with my choice. The
+                            M2 chip is blazing fast, and the battery life is amazing.
                         </Tool>
                         <Tool title="27” Samsung Odyssey G5">
                             The perfect combination of size, resolution, and refresh rate. Outside of my working hours I
@@ -69,6 +68,9 @@ export default function Uses() {
                         </Tool>
                     </ToolsSection>
                     <ToolsSection title="Audio setup">
+                        <Tool title="Sony WH-1000XM5">
+                            My go-to headphones for when I’m not home. Amazing sound quality, noise cancellation and battery life.
+                        </Tool>
                         <Tool title="Sony WF-1000XM4">
                             My go-to earbuds for when I’m on the go. The noise cancellation is great, and so is the
                             sound quality. I travel a lot, and these are the perfect companion for that.
