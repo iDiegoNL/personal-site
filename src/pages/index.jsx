@@ -11,7 +11,6 @@ import {
 import portraitImage from '@/images/avatar.jpg'
 import logoTheDevSquad from "@/images/logos/the-dev-squad.png";
 import logoThisIsDevelopment from "@/images/logos/this-is-development.png";
-import logoAlbertHeijn from "@/images/logos/albert-heijn.svg";
 
 function SocialLink({className, href, children, icon: Icon}) {
     return (
@@ -90,13 +89,6 @@ function Resume() {
             logo: logoThisIsDevelopment,
             start: '01/2020',
             end: '05/2022',
-        },
-        {
-            company: 'Albert Heijn',
-            title: 'Stocker',
-            logo: logoAlbertHeijn,
-            start: '03/2017',
-            end: '05/2021',
         },
     ]
 
