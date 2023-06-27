@@ -5,12 +5,15 @@ import {Card} from '@/components/Card'
 import {SimpleLayout} from '@/components/SimpleLayout'
 import {Badge} from "@/components/Badge";
 
+import logoIWS from '@/images/logos/iws.png'
+import logoWWJZ from '@/images/logos/weetwatjezegt.png'
 import logoHartjewonen from '@/images/logos/hartjewonen.png'
 import logoLidrs from '@/images/logos/lidrs.png'
 import logoFrieslandcampina from '@/images/logos/frieslandcampina.png'
 import logoThisisdevelopment from '@/images/logos/thisisdevelopment.png'
 import logoBootburg from '@/images/logos/bootburg.png'
 
+import logoArtisticAnthro from '@/images/logos/artisticanthro.png'
 import logoTruckersmp from '@/images/logos/truckersmp.png'
 import logoPhoenix from '@/images/logos/phoenix.png'
 import logoVivaTrucking from '@/images/logos/viva-trucking.png'
@@ -21,6 +24,20 @@ import iconCartShoppingDuotone from '@/images/icons/cart-shopping-duotone.svg'
 import iconIslandTropicalDuotone from '@/images/icons/island-tropical-duotone.svg'
 
 const professionalProjects = [
+    {
+        name: 'Independent Waiver Service (IWS)',
+        description:
+            'Independent Waiver Service is specialized in providing Waiver documents for all 25 Waiver countries.',
+        link: {href: 'https://waiver-service.com', label: 'waiver-service.com', external: true},
+        logo: logoIWS,
+    },
+    {
+        name: 'Weetwatjezegt',
+        description:
+            'Weetwatjezegt is a compliance e-learning platform that helps organizations become aware of the laws and regulations they need to follow.',
+        link: {href: 'https://weetwatjezegt.nl', label: 'weetwatjezegt.nl', external: true},
+        logo: logoWWJZ,
+    },
     {
         name: 'Hartje Wonen',
         description:
@@ -73,6 +90,14 @@ const professionalProjects = [
 ];
 
 const personalProjects = [
+    {
+        name: 'ArtisticAnthro',
+        badge: {label: '2022 - Present'},
+        description:
+            'ArtisticAnthro is a revolutionary platform for artists and art lovers, providing seamless commission management. Built with Laravel, Livewire, Alpine.js and Tailwind CSS.',
+        link: {href: 'https://artisticanthro.com', label: 'artisticanthro.com', external: true},
+        logo: logoArtisticAnthro,
+    },
     {
         name: 'TruckersMP',
         badge: {label: '2022'},
