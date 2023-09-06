@@ -3,7 +3,7 @@ import clsx from 'clsx'
 
 const variantStyles = {
     zinc:
-        'bg-zinc-50 text-zinc-800',
+        'bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-50',
 }
 
 export function Badge({ variant = 'zinc', className, href, children, ...props }) {
