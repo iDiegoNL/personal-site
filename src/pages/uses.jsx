@@ -45,7 +45,7 @@ export default function Uses() {
                             My desktop machine is my pride and joy. Featuring some fancy hardware, NZXT watercooling,
                             RGB and storage for days. It’s the perfect machine for my needs.
                         </Tool>
-                        <Tool title="13,6” MacBook Pro, M2, 16GB RAM (2022)">
+                        <Tool title="13,6” MacBook Air, M2, 16GB RAM (2022)">
                             I was using a Dell XPS prior to switching to Apple, and I’m very happy with my choice. The
                             M2 chip is blazing fast, and the battery life is amazing.
                         </Tool>
