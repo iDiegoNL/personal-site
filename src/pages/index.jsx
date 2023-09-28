@@ -82,7 +82,7 @@ function Resume() {
             title: 'Back-end Developer',
             logo: logoDigitalImpact,
             start: '02/2023',
-            end: 'Present',
+            end: '11/2023',
         },
         {
             company: 'The Dev Squad',
