@@ -14,6 +14,7 @@ import logoFrieslandcampina from '@/images/logos/frieslandcampina.png'
 import logoThisisdevelopment from '@/images/logos/thisisdevelopment.png'
 import logoBootburg from '@/images/logos/bootburg.png'
 
+import logoAwoostria from '@/images/logos/awoostria.png'
 import logoArtisticAnthro from '@/images/logos/artisticanthro.png'
 import logoTruckersmp from '@/images/logos/truckersmp.png'
 import logoPhoenix from '@/images/logos/phoenix.png'
@@ -98,6 +99,14 @@ const professionalProjects = [
 ];
 
 const personalProjects = [
+    {
+        name: 'Awoostria',
+        badge: {label: '2023 - Present'},
+        description:
+            'Awoostria is a non-profit organization that organizes events in Austria. Their website and ticket sales system is built with Laravel, Livewire, Alpine.js and Tailwind CSS.',
+        link: {href: 'https://awoostria.at', label: 'awoostria.at', external: true},
+        logo: logoAwoostria,
+    },
     {
         name: 'ArtisticAnthro',
         badge: {label: '2022 - Present'},
