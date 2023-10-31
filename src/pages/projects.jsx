@@ -5,6 +5,7 @@ import {Card} from '@/components/Card'
 import {SimpleLayout} from '@/components/SimpleLayout'
 import {Badge} from "@/components/Badge";
 
+import logoCusweb from '@/images/logos/cusweb.png'
 import logoIWS from '@/images/logos/iws.png'
 import logoWWJZ from '@/images/logos/weetwatjezegt.png'
 import logoHartjewonen from '@/images/logos/hartjewonen.png'
@@ -24,6 +25,13 @@ import iconCartShoppingDuotone from '@/images/icons/cart-shopping-duotone.svg'
 import iconIslandTropicalDuotone from '@/images/icons/island-tropical-duotone.svg'
 
 const professionalProjects = [
+    {
+        name: 'Cusweb',
+        description:
+            'Cusweb is an in-house employee, customer and project management system. Built in plain PHP with jQuery.',
+        link: {href: 'https://cusweb.nl', label: 'cusweb.nl', external: true},
+        logo: logoCusweb,
+    },
     {
         name: 'Independent Waiver Service (IWS)',
         description:
