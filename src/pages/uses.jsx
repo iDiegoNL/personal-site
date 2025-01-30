@@ -45,9 +45,9 @@ export default function Uses() {
                             My desktop machine is my pride and joy. Featuring some fancy hardware, NZXT watercooling,
                             RGB and storage for days. It’s the perfect machine for my needs.
                         </Tool>
-                        <Tool title="13,6” MacBook Air, M2, 16GB RAM (2022)">
+                        <Tool title="14” MacBook Pro, M1, 32GB RAM">
                             I was using a Dell XPS prior to switching to Apple, and I’m very happy with my choice. The
-                            M2 chip is blazing fast, and the battery life is amazing.
+                            M1 chip is blazing fast, and the battery life is amazing.
                         </Tool>
                         <Tool title="27” Samsung Odyssey G5">
                             The perfect combination of size, resolution, and refresh rate. Outside of my working hours I
@@ -59,7 +59,7 @@ export default function Uses() {
                             of the Cherry MX Brown switches, and with the marco keys and media controls it’s the perfect
                             keyboard for me.
                         </Tool>
-                        <Tool title="Logitech MX Master 3">
+                        <Tool title="Logitech MX Master 3S">
                             This mouse shouldn’t need an introduction. Logitech’s MX series are the best mice that I
                             have ever used, and I’ll never switch to something else.
                         </Tool>
@@ -70,10 +70,6 @@ export default function Uses() {
                     <ToolsSection title="Audio setup">
                         <Tool title="Sony WH-1000XM5">
                             My go-to headphones for when I’m not home. Amazing sound quality, noise cancellation and battery life.
-                        </Tool>
-                        <Tool title="Sony WF-1000XM4">
-                            My go-to earbuds for when I’m on the go. The noise cancellation is great, and so is the
-                            sound quality. I travel a lot, and these are the perfect companion for that.
                         </Tool>
                         <Tool title="Sennheiser HD 660 S">
                             In my opinion one of the best value for money headphones out there. They’re comfortable, and
@@ -97,7 +93,7 @@ export default function Uses() {
                         </Tool>
                         <Tool title="Tinkerwell">
                             If you love Laravel Tinker, you’ll love Tinkerwell even more. It’s an amazing tool for
-                            quickly running code snippets, while having the hot-reload that I miss with Tinker.
+                            quickly running code snippets, whilst having the hot-reload that I miss with Tinker.
                         </Tool>
                         <Tool title="Spatie Ray">
                             My favorite debugging tool. Super easy to use, and it’s a great way to quickly debug code of
@@ -105,7 +101,7 @@ export default function Uses() {
                         </Tool>
                     </ToolsSection>
                     <ToolsSection title="Tech stack">
-                        <Tool title="Laravel, Livewire, Tailwind CSS, Alpine.js and Vue.js">
+                        <Tool title="Laravel, Livewire, Tailwind CSS and Alpine.js">
                             My favourite PHP framework. Whenever I start a new project, I don’t even need to think about
                             what framework to use, because I know that Laravel is the best choice for me.
                         </Tool>
@@ -114,6 +110,9 @@ export default function Uses() {
                         <Tool title="Notion">
                             From quickly taking notes to writing to-do lists and standup reports, Notion is my go-to
                             text editor.
+                        </Tool>
+                        <Tool title="Linear">
+                            I’m a huge fan of Linear. It’s the perfect tool for managing tasks and projects, and it works better than any other project management tool that I’ve used.
                         </Tool>
                     </ToolsSection>
                 </div>

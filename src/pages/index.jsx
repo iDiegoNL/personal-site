@@ -9,7 +9,8 @@ import {
     LinkedInIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/avatar.jpeg'
-import logoPiggy from "@/images/logos/piggy.png";
+import logoLeat from "@/images/logos/leat.jpg";
+import logoAwoostria from "@/images/logos/awoostria.png";
 import logoDigitalImpact from "@/images/logos/digital-impact.png";
 import logoTheDevSquad from "@/images/logos/the-dev-squad.png";
 import logoThisIsDevelopment from "@/images/logos/this-is-development.png";
@@ -79,10 +80,17 @@ function ArrowDownIcon(props) {
 function Resume() {
     let resume = [
         {
-            company: 'Piggy',
-            title: 'Back-end Developer',
-            logo: logoPiggy,
+            company: 'Piggy / Leat',
+            title: 'Software Engineer',
+            logo: logoLeat,
             start: '11/2023',
+            end: 'Present',
+        },
+        {
+            company: 'Awoostria (volunteer position)',
+            title: 'Head of Technology & Board Member',
+            logo: logoAwoostria,
+            start: '07/2023',
             end: 'Present',
         },
         {

@@ -5,6 +5,7 @@ import {Card} from '@/components/Card'
 import {SimpleLayout} from '@/components/SimpleLayout'
 import {Badge} from "@/components/Badge";
 
+import logoLeat from '@/images/logos/leat.jpg'
 import logoCusweb from '@/images/logos/cusweb.png'
 import logoIWS from '@/images/logos/iws.png'
 import logoWWJZ from '@/images/logos/weetwatjezegt.png'
@@ -26,6 +27,20 @@ import iconCartShoppingDuotone from '@/images/icons/cart-shopping-duotone.svg'
 import iconIslandTropicalDuotone from '@/images/icons/island-tropical-duotone.svg'
 
 const professionalProjects = [
+    {
+        name: 'Piggy / Leat Business Dashboard',
+        description:
+            'A centralized platform that allows businesses to manage their loyalty and engagement programs. Built with Laravel, React and TailwindCSS.',
+        link: {href: 'https://leat.com', label: 'leat.com', external: true},
+        logo: logoLeat,
+    },
+    {
+        name: 'Piggy / Leat API & SDK',
+        description:
+            'The Piggy API & SDK offer customers a way to easily and fully integrate the Piggy loyalty software into their own websites and POS systems. Built with Laravel and PHP.',
+        link: {href: 'https://github.com/Piggy-Loyalty/piggy-php-sdk', label: 'github.com', external: true},
+        logo: logoLeat,
+    },
     {
         name: 'Cusweb',
         description:
@@ -103,16 +118,15 @@ const personalProjects = [
         name: 'Awoostria',
         badge: {label: '2023 - Present'},
         description:
-            'Awoostria is a non-profit organization that organizes events in Austria. Their website and ticket sales system is built with Laravel, Livewire, Alpine.js and Tailwind CSS.',
+            'Awoostria is a non-profit organization that organizes events in Austria. Their website and ticket sales system is fully custom built by me. Made with Laravel, Livewire, Alpine.js and Tailwind CSS.',
         link: {href: 'https://awoostria.at', label: 'awoostria.at', external: true},
         logo: logoAwoostria,
     },
     {
         name: 'ArtisticAnthro',
-        badge: {label: '2022 - Present'},
+        badge: {label: '2022 - 2023'},
         description:
             'ArtisticAnthro is a revolutionary platform for artists and art lovers, providing seamless commission management. Built with Laravel, Livewire, Alpine.js and Tailwind CSS.',
-        link: {href: 'https://artisticanthro.com', label: 'artisticanthro.com', external: true},
         logo: logoArtisticAnthro,
     },
     {
