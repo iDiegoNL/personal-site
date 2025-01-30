@@ -14,6 +14,7 @@ import logoAwoostria from "@/images/logos/awoostria.png";
 import logoDigitalImpact from "@/images/logos/digital-impact.png";
 import logoTheDevSquad from "@/images/logos/the-dev-squad.png";
 import logoThisIsDevelopment from "@/images/logos/this-is-development.png";
+import {Button} from "@/components/Button";
 
 function SocialLink({className, href, children, icon: Icon}) {
     return (
@@ -158,6 +159,11 @@ function Resume() {
                     </li>
                 ))}
             </ol>
+             <Button href="Diego Relyveld Resume.pdf" target="_blank" variant="secondary" className="group mt-6 w-full">
+                 Download resume
+                 <ArrowDownIcon
+                     className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"/>
+             </Button>
         </div>
     )
 }
