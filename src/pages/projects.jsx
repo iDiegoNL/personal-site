@@ -5,7 +5,7 @@ import {Card} from '@/components/Card'
 import {SimpleLayout} from '@/components/SimpleLayout'
 import {Badge} from "@/components/Badge";
 
-import logoLeat from '@/images/logos/leat.jpg'
+import logoLeat from '@/images/logos/leat.png'
 import logoCusweb from '@/images/logos/cusweb.png'
 import logoIWS from '@/images/logos/iws.png'
 import logoWWJZ from '@/images/logos/weetwatjezegt.png'

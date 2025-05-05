@@ -26,8 +26,15 @@ export function Footer() {
                 <NavLink href="/uses">Uses</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Diego Relyveld. All rights
-                reserved.
+                &copy; {new Date().getFullYear()} DiegoR
+                <br/>
+                <span>
+                  Duitslandstraat 122
+                  <br/>
+                  1363 BG Almere
+                </span>
+                <br /> <br />
+                KVK-nummer: 97135623
               </p>
             </div>
           </Container.Inner>

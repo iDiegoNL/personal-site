@@ -9,11 +9,12 @@ import {
     LinkedInIcon,
 } from '@/components/SocialIcons'
 import portraitImage from '@/images/avatar.jpeg'
-import logoLeat from "@/images/logos/leat.jpg";
+import logoLeat from "@/images/logos/leat.png";
 import logoAwoostria from "@/images/logos/awoostria.png";
 import logoDigitalImpact from "@/images/logos/digital-impact.png";
 import logoTheDevSquad from "@/images/logos/the-dev-squad.png";
 import logoThisIsDevelopment from "@/images/logos/this-is-development.png";
+import logoOnlyFansApi from "@/images/logos/ofapi.png";
 import {Button} from "@/components/Button";
 
 function SocialLink({className, href, children, icon: Icon}) {
@@ -81,11 +82,18 @@ function ArrowDownIcon(props) {
 function Resume() {
     let resume = [
         {
+            company: 'OnlyFans API',
+            title: 'Senior Software Engineer',
+            logo: logoOnlyFansApi,
+            start: '04/2025',
+            end: 'Present',
+        },
+        {
             company: 'Piggy / Leat',
             title: 'Software Engineer',
             logo: logoLeat,
             start: '11/2023',
-            end: 'Present',
+            end: '04/2025',
         },
         {
             company: 'Awoostria (volunteer position)',
