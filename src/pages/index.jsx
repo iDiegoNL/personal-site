@@ -83,7 +83,7 @@ function Resume() {
     let resume = [
         {
             company: 'OnlyFans API',
-            title: 'Senior Software Engineer',
+            title: 'Head of Engineering',
             logo: logoOnlyFansApi,
             start: '04/2025',
             end: 'Present',
