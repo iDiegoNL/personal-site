@@ -100,7 +100,7 @@ function Resume() {
             title: 'Head of Technology & Board Member',
             logo: logoAwoostria,
             start: '07/2023',
-            end: 'Present',
+            end: '09/2025',
         },
         {
             company: 'Digital Impact',
