@@ -89,18 +89,18 @@ function Resume() {
             end: 'Present',
         },
         {
-            company: 'Piggy / Leat',
-            title: 'Software Engineer',
-            logo: logoLeat,
-            start: '11/2023',
-            end: '04/2025',
-        },
-        {
             company: 'Awoostria (volunteer position)',
             title: 'Head of Technology & Board Member',
             logo: logoAwoostria,
             start: '07/2023',
             end: '09/2025',
+        },
+        {
+            company: 'Piggy / Leat',
+            title: 'Software Engineer',
+            logo: logoLeat,
+            start: '11/2023',
+            end: '04/2025',
         },
         {
             company: 'Digital Impact',
