@@ -82,7 +82,7 @@ function ArrowDownIcon(props) {
 function Resume() {
     let resume = [
         {
-            company: 'Fans Holding',
+            company: 'Fans Holdings',
             title: 'Head of Engineering',
             logo: logoFansHolding,
             start: '04/2025',
