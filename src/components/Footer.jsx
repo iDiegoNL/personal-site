@@ -26,15 +26,15 @@ export function Footer() {
                 <NavLink href="/uses">Uses</NavLink>
               </div>
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} DiegoR
+                Diego Jamiro Relyveld
                 <br/>
                 <span>
-                  Duitslandstraat 122
+                  Revoluční 2137/8b
                   <br/>
-                  1363 BG Almere
+                  110 00, Praha 1 - Nové Město
                 </span>
                 <br /> <br />
-                KVK-nummer: 97135623
+                IČO: 24880051
               </p>
             </div>
           </Container.Inner>

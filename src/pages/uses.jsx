@@ -41,49 +41,18 @@ export default function Uses() {
             >
                 <div className="space-y-20">
                     <ToolsSection title="Workstation">
-                        <Tool title="AMD Ryzen 9 5900X, RTX 3070, 64GB DDR4 RAM @ 3.600MT/s">
-                            My desktop machine is my pride and joy. Featuring some fancy hardware, NZXT watercooling,
-                            RGB and storage for days. It’s the perfect machine for my needs.
-                        </Tool>
-                        <Tool title="14” MacBook Pro, M1, 32GB RAM">
-                            I was using a Dell XPS prior to switching to Apple, and I’m very happy with my choice. The
-                            M1 chip is blazing fast, and the battery life is amazing.
-                        </Tool>
-                        <Tool title="27” Samsung Odyssey G5">
-                            The perfect combination of size, resolution, and refresh rate. Outside of my working hours I
-                            love watching series on Netflix and playing games, and this monitor is a great choice for
-                            both.
-                        </Tool>
-                        <Tool title="Corsair Gaming K95 RGB Platinum Cherry">
-                            I’ve been using this keyboard for years now and I’m still very happy with it. I’m a huge fan
-                            of the Cherry MX Brown switches, and with the marco keys and media controls it’s the perfect
-                            keyboard for me.
-                        </Tool>
-                        <Tool title="Logitech MX Master 3S">
-                            This mouse shouldn’t need an introduction. Logitech’s MX series are the best mice that I
-                            have ever used, and I’ll never switch to something else.
-                        </Tool>
-                        <Tool title="IKEA Markus">
-                            It’s a chair. It’s comfortable. It’s cheap. What else is there to say?
-                        </Tool>
+                        <Tool title="AMD Ryzen 9 5900X, RTX 3070, 64GB DDR4 RAM @ 3.600MT/s"/>
+                        <Tool title="14” MacBook Pro, M4 Pro, 48GB RAM"/>
+                        <Tool title='37.5" 4K LG UltraWide'/>
+                        <Tool title="Corsair Gaming K95 RGB Platinum Cherry"/>
+                        <Tool title="Logitech MX Master 3S"/>
                     </ToolsSection>
                     <ToolsSection title="Audio setup">
-                        <Tool title="Sony WH-1000XM5">
-                            My go-to headphones for when I’m not home. Amazing sound quality, noise cancellation and battery life.
-                        </Tool>
-                        <Tool title="Sennheiser HD 660 S">
-                            In my opinion one of the best value for money headphones out there. They’re comfortable, and
-                            the sound quality is amazing.
-                        </Tool>
-                        <Tool title="Focusrite Scarlett 2i2">
-                            This audio interface functions as my headphone and speaker output, and the input for my
-                            microphone. Also, the two input channels are really handy for quickly mixing in other audio
-                            sources.
-                        </Tool>
-                        <Tool title="Audio-Technica AT2020">
-                            For only € 90 this microphone is a steal. The sound quality is amazing, so that I can
-                            sound crispy clear during meetings.
-                        </Tool>
+                        <Tool title="Sennheiser HD 660 S"/>
+                        <Tool title="Sony WH-1000XM5"/>
+                        <Tool title="AirPods Pro 2"/>
+                        <Tool title="Focusrite Vocaster One"/>
+                        <Tool title="Audio-Technica AT2020"/>
                     </ToolsSection>
                     <ToolsSection title="Development tools">
                         <Tool title="PhpStorm">
@@ -107,13 +76,9 @@ export default function Uses() {
                         </Tool>
                     </ToolsSection>
                     <ToolsSection title="Productivity">
-                        <Tool title="Notion">
-                            From quickly taking notes to writing to-do lists and standup reports, Notion is my go-to
-                            text editor.
-                        </Tool>
-                        <Tool title="Linear">
-                            I’m a huge fan of Linear. It’s the perfect tool for managing tasks and projects, and it works better than any other project management tool that I’ve used.
-                        </Tool>
+                        <Tool title="Notion"/>
+                        <Tool title="TickTick"/>
+                        <Tool title="Linear"/>
                     </ToolsSection>
                 </div>
             </SimpleLayout>

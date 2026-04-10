@@ -116,7 +116,7 @@ const professionalProjects = [
 const personalProjects = [
     {
         name: 'Awoostria',
-        badge: {label: '2023 - Present'},
+        badge: {label: '2023 - 2025'},
         description:
             'Awoostria is a non-profit organization that organizes events in Austria. Their website and ticket sales system is fully custom built by me. Made with Laravel, Livewire, Alpine.js and Tailwind CSS.',
         link: {href: 'https://awoostria.at', label: 'awoostria.at', external: true},

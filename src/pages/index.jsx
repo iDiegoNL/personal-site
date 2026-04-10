@@ -14,7 +14,7 @@ import logoAwoostria from "@/images/logos/awoostria.png";
 import logoDigitalImpact from "@/images/logos/digital-impact.png";
 import logoTheDevSquad from "@/images/logos/the-dev-squad.png";
 import logoThisIsDevelopment from "@/images/logos/this-is-development.png";
-import logoOnlyFansApi from "@/images/logos/ofapi.png";
+import logoFansHolding from "@/images/logos/fans-holding.png";
 import {Button} from "@/components/Button";
 
 function SocialLink({className, href, children, icon: Icon}) {
@@ -82,9 +82,9 @@ function ArrowDownIcon(props) {
 function Resume() {
     let resume = [
         {
-            company: 'OnlyFans API',
+            company: 'Fans Holding',
             title: 'Head of Engineering',
-            logo: logoOnlyFansApi,
+            logo: logoFansHolding,
             start: '04/2025',
             end: 'Present',
         },
